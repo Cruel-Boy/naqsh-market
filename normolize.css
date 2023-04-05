@@ -1,0 +1,128 @@
+@media screen and (max-width:768px) {
+    :root {
+        --title-text-size:46px;
+        --subtitle-text-size:26px;
+    }
+    .h-img {
+        display: none;
+    }
+    .naqsh {
+        margin: 0 auto;
+    }
+    .head {
+        width: 70%;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        gap: 5%;
+    }
+    .container {
+        width: 47%;
+    }
+    .card img {
+        width: 40px;
+        height: 40px;
+    }
+    .address img {
+        width: 50px;
+        height: 50px;
+        padding: 6px;
+    }
+    .button {
+        margin: 0;
+    }
+}
+@media screen and (max-width:512px) {
+    :root {
+        --title-text-size:40px;
+        --subtitle-text-size:22px;
+    }
+    .navbar {
+        display: none;
+    }
+    .mobile-nav {
+        padding: 2% 4%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .head {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .h-img {
+        display: block;
+        margin-top: 5%;
+        width: 100%;
+    }
+    .h-text p {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .logos {
+        display: none;
+    }
+    .card img {
+        width: 30px;
+        height: 30px;
+    }
+    .address {
+        margin-top: 5%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    .address img {
+        width: 40px;
+        height: 40px;
+        padding: 6px;
+    }
+    @media screen and (max-width:768px) {
+    .logo-mobile {
+        display: block;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    ul {
+        display: none;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .chance-texts{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 18px;
+    }
+    .chance-regular-text-phone {
+        display: block;
+    }
+    .chance-regular-text {
+        display: none;
+    }   
+    .chance-block {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+            row-gap: 100px;
+            margin-top: 80px;
+    }
+    .chance-blocks {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+}
+}
